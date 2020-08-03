@@ -1,0 +1,18 @@
+<div class="article">
+    <h1 class="article.title"><%= @article.title %></h1>
+    <div class="article_detail">
+        <%= image_tag 'default-avatar.png' %>
+        <div>
+            <p>fa-fa.cleaning</p>
+            <p>2020/08/03</p>
+        </div>
+    </div>
+        
+    <div class="article.content">
+        <%= @article.content %>
+    </div>
+    <div class="article_heart">
+        <%= image_tag 'heart.svg' %>
+    </div>
+
+</div>
