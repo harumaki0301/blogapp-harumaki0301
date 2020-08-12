@@ -8,7 +8,7 @@ class ArticlesController < ApplicationController
     def show
     end
 
-    def new 
+    def new
         @article = Article.new
     end
 
@@ -48,6 +48,5 @@ class ArticlesController < ApplicationController
     def set_article
         @article = Article.find(params[:id])
     end
-    
 
 end
